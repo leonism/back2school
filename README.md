@@ -46,14 +46,14 @@ To build once run...
 npm run build
 ```
 
-You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations and the script commands.
+You can edit the scripts in package.json and the `tailwind.config.js` file to change `input/output` locations and the script commands.
 
 ## 🔗 Credits
 
-- [Tailwind](https://www.algolia.com/) Framework
+- [Tailwind](https://tailwindcss.com/docs/installation/) Framework
 - [Figma](https://www.figma.com/community/file/1012878506205031695) Design
 - [Hero Icons](https://heroicons.com/)
-- [Vs Code](https://code.visualstudio.com/) Editor
+- [VS Code](https://code.visualstudio.com/) Editor
 
 ## 🧬 Versions
 
