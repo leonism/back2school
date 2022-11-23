@@ -1,6 +1,6 @@
-# Tailwind Back2School Landing Page
+# 👋 `Back2School` Tailwind Landing Page
 
-This is a simple responsive layout, built on top of the Tailwind 3. Make sure you have NodeJS running on your system, to install the dependecies for the build to function properly. 
+Back2School is a simple, minimalistic and responsive layout built on top of the latest Tailwind 3 technology (be sure to check the tailwind.config.js). Make sure you have NodeJS running on your system, to install the dependecies for the build to function properly. 
 
 ```bash
 npm run watch
@@ -11,19 +11,19 @@ npm run watch
 
 ![Alt text](/back2school.png?raw=true)
 
-## Features
+## 🚀 Features
 
 - ✅ **Responsive mobile-friendly design**
 - ✅ **Using the latest Tailwind 3.2.4**
-- ✅ **Tested on various devices with different view ports**
+- ✅ **Tested on various devices with different viewports**
 
-## Todos
+## 😏 Todos
 
-- ✅ **More Pages Design**
-- ✅ **Multi-language i18n**
-- ✅ **Dark mode**
+- ❎ **More Pages Design**
+- ❎ **Multi-language i18n**
+- ❎ **Dark mode**
 
-## Usage
+## 🤓 How To
 
 Install dependencies (Tailwind)
 
@@ -48,14 +48,14 @@ npm run build
 
 You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations and the script commands.
 
-## Credits
+## 🔗 Credits
 
 - [Tailwind](https://www.algolia.com/) Framework
 - [Figma](https://www.figma.com/community/file/1012878506205031695) Design
 - [Hero Icons](https://heroicons.com/)
 - [Vs Code](https://code.visualstudio.com/) Editor
 
-## URLs
+## 🧬 Versions
 
 - [back2school @ github](https://github.com/leonism/back2school)
 - [back2school @ vercel](https://back2school-two.vercel.app/)
@@ -63,5 +63,5 @@ You can edit the scripts in package.json and the tailwind.config.js file to chan
 - [back2school @ cloudflare](back2school.pages.dev)
 - [back2school @ render](https://back2school.onrender.com)
 
-
+### License
 Distributed under the MIT License - Nov - 2022
