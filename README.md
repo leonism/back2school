@@ -6,8 +6,8 @@ This is a simple responsive layout, built on top of the Tailwind 3. Make sure yo
 npm run watch
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://github.com/leonism/back2school/)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://github.com/leonism/back2school/)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/leonism/back2school?file=README.md)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github.com/leonism/back2school/)
 
 ![Alt text](/back2school.png?raw=true)
 
@@ -63,3 +63,5 @@ You can edit the scripts in package.json and the tailwind.config.js file to chan
 - [back2school @ cloudflare](back2school.pages.dev)
 - [back2school @ render](https://back2school.onrender.com)
 
+
+Distributed under the MIT License - Nov - 2022
