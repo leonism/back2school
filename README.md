@@ -1,6 +1,6 @@
-# 👋 `Back2School` Tailwind Landing Page
+# 👋 `Back2School` - A Tailwind Landing Page
 
-Back2School is a simple, minimalistic and responsive layout built on top of the latest Tailwind 3 technology (be sure to check the tailwind.config.js). Make sure you have NodeJS running on your system, to install the dependecies for the build to function properly. 
+`Back2School` is a simple, minimalistic and responsive single page layout, built on top of the latest Tailwind 3.*.* technology. Make sure you have the Node JS running properly on your system to install the dependecies for the final build to function properly. 
 
 ```bash
 npm run watch
@@ -40,7 +40,7 @@ Run the Tailwind CLI to compile the **input.css** during development. The output
 npm run watch
 ```
 
-To build once run...
+To build once run.
 
 ```
 npm run build
@@ -50,18 +50,18 @@ You can edit the scripts in package.json and the `tailwind.config.js` file to ch
 
 ## 🔗 Credits
 
-- [Tailwind](https://tailwindcss.com/docs/installation/) Framework
-- [Figma](https://www.figma.com/community/file/1012878506205031695) Design
+- [Tailwind Framework](https://tailwindcss.com/docs/installation/)
+- [Figma Design](https://www.figma.com/community/file/1012878506205031695)
 - [Hero Icons](https://heroicons.com/)
-- [VS Code](https://code.visualstudio.com/) Editor
+- [VS Code Editor](https://code.visualstudio.com/)
 
 ## 🧬 Versions
 
 - [back2school @ github](https://github.com/leonism/back2school)
 - [back2school @ vercel](https://back2school-two.vercel.app/)
 - [back2school @ netlify](https://back2school.netlify.app/)
-- [back2school @ cloudflare](back2school.pages.dev)
+- [back2school @ cloudflare](https://back2school.pages.dev)
 - [back2school @ render](https://back2school.onrender.com)
 
-### License
+## License
 Distributed under the MIT License - Nov - 2022
