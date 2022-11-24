@@ -1,5 +1,7 @@
 # 👋 `Back2School` - A Tailwind Landing Page
 
+https://user-images.githubusercontent.com/8904/203683489-83fcbda1-8eac-498b-a84e-a958d3ff59e2.mp4
+
 `Back2School` is a simple, minimalistic and responsive single page layout, built on top of the latest Tailwind 3.*.* technology. Make sure you have the Node JS running properly on your system to install the dependecies for the final build to function properly. 
 
 ```bash
@@ -35,6 +37,7 @@ Run the Tailwind CLI to compile the **input.css** during development. The output
 
 - input.css  located at ./src/input.css
 - output.css located at ./dist/output.css
+
 
 ```
 npm run watch
