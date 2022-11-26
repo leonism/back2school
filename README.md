@@ -10,6 +10,7 @@ npm run watch
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/leonism/back2school?file=README.md)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github.com/leonism/back2school/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleonism%2Fback2school&project-name=back2school&repository-name=back2school)
 
 ![Alt text](/back2school.png?raw=true)
 
@@ -35,8 +36,8 @@ npm install
 
 Run the Tailwind CLI to compile the **input.css** during development. The output file is **dist/output.css**
 
-- input.css  located at ./src/input.css
-- output.css located at ./dist/output.css
+- `input.css`  located at `./src/input.css`
+- `output.css` located at `./dist/output.css`
 
 
 ```
