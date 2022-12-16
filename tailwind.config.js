@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./dist/**/*.html'],
+  content: ['./dist/**/*.html'], 
   theme: {
     screens: {
       sm: '480px',
@@ -16,6 +16,25 @@ module.exports = {
         mutedGray: 'hsl(0, 0%, 74%)',
         plainOrange: 'hsl(25, 100%, 72%)',
       },
+      animation: {
+        blob: "blob 5s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
+      },  
       backgroundColor: {
         header: '#FAFAFA',
         peach: '#FFF2F3',

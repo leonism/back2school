@@ -2,7 +2,11 @@
 
 https://user-images.githubusercontent.com/8904/203683489-83fcbda1-8eac-498b-a84e-a958d3ff59e2.mp4
 
-`Back2School` is a simple, minimalistic and responsive single page layout, built on top of the latest Tailwind 3.*.* technology. Make sure you have the Node JS running properly on your system to install the dependecies for the final build to function properly. 
+Get ready for the new school year with `Back2School`, a versatile and easy-to-use single page layout. Open source and built with the latest Tailwind technology, this layout is minimalistic, lightweight, and responsive. One sleek and modern single page layout perfect for any education-related website. 
+
+Built using the latest `Tailwind` technology, this layout is minimalistic, responsive, and easy to customize. With its clean and straightforward design, it's sure to make a powerful impression on your visitors. To get the most out of this layout, make sure you have Node JS installed and running on your system so you can easily install the necessary dependencies for the final build to function properly. 
+
+Make your next project a success with Back2School!
 
 ```bash
 npm run watch
@@ -61,11 +65,11 @@ You can edit the scripts in package.json and the `tailwind.config.js` file to ch
 
 ## 🧬 Versions
 
-- [back2school @ github](https://github.com/leonism/back2school)
+- [back2school @ github](https://leonism.github.io/back2school/dist/index.html)
 - [back2school @ vercel](https://back2school-two.vercel.app/)
 - [back2school @ netlify](https://back2school.netlify.app/)
 - [back2school @ cloudflare](https://back2school.pages.dev)
 - [back2school @ render](https://back2school.onrender.com)
 
 ## License
-Distributed under the MIT License - Nov - 2022
+Distributed under the MIT License - Nov 2022

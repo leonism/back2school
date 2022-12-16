@@ -28,32 +28,32 @@
 </head>
 <body>
     <!-- start the header & navigation -->
-    <section id="NavBar" class="bg-header sticky top-0 self-center z-50 p-[27px] w-full backdrop-blur flex-none nav drop-shadow-lg">    
-        <div id="Logo" class="flex justify-between max-w-5xl mx-auto">
-            <h1 class="text-xl font-bold font-color text-darkPurple tracking-tighter">                
-                <a href="#hero">Brandname</a>                
+    <section id="wrapperNavBar" class="bg-header sticky top-0 self-center z-50 p-[30px] w-full backdrop-blur flex-none drop-shadow-lg">    
+        <div id="navBar" class="flex justify-between max-w-5xl mx-auto">
+            <h1 class="text-xl font-bold tracking-tighter font-color text-darkPurple">                
+                <a href="#hero">BrandName</a>                
             </h1>
             <!-- start the navigation -->
             <nav id="menu-desktop">
-                <ul class="hidden md:flex justify-center text-sm font-semibold font-color text-plainGray pt-1 antialiased">
+                <ul class="justify-center hidden pt-1 text-sm antialiased font-semibold md:flex text-plainGray">
                     <li>
-                        <a href="#" class="ml-4">Home</a>
+                        <a href="#" class="ml-4 font-serif">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="ml-4">Product</a>
+                        <a href="#" class="ml-4 font-serif">Product</a>
                     </li>
                     <li>
-                        <a href="#" class="ml-4">Pricing</a>
+                        <a href="#" class="ml-4 font-serif">Pricing</a>
                     </li>
                     <li>
-                        <a href="#" class="ml-4">Contact</a>
+                        <a href="#" class="ml-4 font-serif">Contact</a>
                     </li>                    
                 </ul>
             </nav>
             <!-- start the button -->
-            <div class="hidden font-medium font-color text-paleGreen tracking-tight px-1 md:flex justify-center space-x-1 text-sm">
+            <div class="justify-center hidden px-1 space-x-1 text-sm font-medium tracking-tight font-color text-paleGreen md:flex">
                 <p>
-                    <a class="hidden md:inline-block lg:ml-auto lg:mr-3 py-1 px-5 text-sm text-paleGreen rounded-xl" href="#">
+                    <a class="hidden px-5 py-1 text-sm md:inline-block lg:ml-auto lg:mr-3 text-paleGreen rounded-xl" href="#">
                         Login
                     </a>
                 </p>
@@ -72,7 +72,7 @@
             </button>   
             <!-- mobile navigation -->
 			<div class="md:hidden">
-				<div id="menu" class="bg-header absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+				<div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-header sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
 					<a href="#">Home</a>
 					<a href="#">Product</a>
 					<a href="#">Pricing</a>
@@ -85,14 +85,14 @@
     </section>
     <!-- start the hero section -->
     <section class="bg-header">
-        <div class="flex flex-col-reverse items-center p-4 mx-auto md:flex-row md:max-w-5xl md:space-y-0">
-            <div id="leftHero" class="basis-1/2 md:w-1/2 md:text-left">
+        <div class="flex flex-col-reverse p-4 mx-auto place-items-center md:flex-row md:max-w-5xl md:space-y-0">
+            <div id="leftHero" class="md:w-1/2 md:text-left">
                 <p class="text-sm font-semibold text-paleGreen">Join Us</p>
-                <h2 class="text-5xl md:text-6xl tracking-tighter text-darkPurple subpixel-antialiased font-semibold">
+                <h2 class="text-5xl subpixel-antialiased font-semibold tracking-tighter md:text-6xl text-darkPurple">
                     25K STUDENTS TRUST US
                 </h2>
                 <p class="mt-7 text-plainGray">Every day brings with it a fresh set of learning possibilities</p>
-                <div class="flex align-center mr-2 mt-4">
+                <div class="flex mt-4 mr-2 align-center">
                     <button type="hidden button" class="px-5 pt-2.5 pb-2 text-white bg-paleGreen font-medium text-xs leading-normal rounded shadow-md hover:bg-opacity-75">
                         Get Quote!
                     </button>
@@ -101,13 +101,13 @@
                     </button>                    
                 </div>                                    
             </div>
-            <div id="rightHero" class="basis-1/2 md:w-1/2">
-                <img src="./img/hero.png" alt="hero.png" width="500">
+            <div id="rightHero" class="md:w-1/2">
+                <img src="./img/hero.png" alt="hero.png" width="500" height="462">
             </div>
         </div>
         <!-- start the features -->
-        <div class="flex flex-col items-center mt-5 max-w-5xl mx-auto md:flex-row-reverse md:-mt-10 z-50">
-            <div class="basis-1/3 px-5 py-3 md:py-5 mx-5 mt-5 mb-10 bg-white border-solid border-white shadow-lg rounded-md">
+        <div class="z-50 flex flex-col items-center max-w-5xl mx-auto mt-5 md:flex-row-reverse md:-mt-10">
+            <div class="px-5 py-3 mx-5 mt-5 mb-10 bg-white border-white border-solid rounded-md shadow-lg basis-1/3 md:py-5">
                 <img src="./img/icons/icon-edu-.svg" alt="icon-edu" class="w-10 h-10">
                 <h3 class="text-[16px] font-bold font-color text-darkPurple mt-5 mb-5">Expert Instruction #1</h3>
                 <div class="h-1 bg-red-600 w-[90px] rounded-t"></div>
@@ -115,14 +115,14 @@
                     The gradual accumulation of information about atomic and small-scale behaviour...
                 </p>
             </div>
-            <div class="basis-1/3 px-5 py-3 md:py-5 mx-5 mt-5 mb-10 bg-white border-solid border-white shadow-lg rounded-md">
+            <div class="px-5 py-3 mx-5 mt-5 mb-10 bg-white border-white border-solid rounded-md shadow-lg basis-1/3 md:py-5">
                 <img src="./img/icons/icon-school.svg" alt="icon-school" class="w-10 h-10">
                 <h3 class="text-[16px] font-bold font-color text-darkPurple mt-5 mb-5">Expert Instruction #2</h3>
                 <div class="h-1 bg-red-600 w-[90px] rounded-t"></div>
                 <p class="mt-5">The gradual accumulation of information about atomic and small-scale behaviour...
                 </p>
             </div>
-            <div class="basis-1/3 px-5 py-3 md:py-5 mx-5 mt-5 mb-10 bg-white border-solid border-white shadow-lg rounded-md">
+            <div class="px-5 py-3 mx-5 mt-5 mb-10 bg-white border-white border-solid rounded-md shadow-lg basis-1/3 md:py-5">
                 <img src="./img/icons/icon-book.svg" alt="icon-book" class="w-10 h-10">
                 <h3 class="text-[16px] font-bold font-color text-darkPurple mt-5 mb-5">Expert Instruction #3</h3>
                 <div class="h-1 bg-red-600 w-[90px] rounded-t"></div>
@@ -132,9 +132,9 @@
         </div>
     </section>
     <!-- start the statistics -->
-    <section id="statistic" class="flex flex-col items-center md:flex-row md:max-w-5xl pt-10 mx-auto">
+    <section id="statistic" class="flex flex-col items-center pt-10 mx-auto md:flex-row md:max-w-5xl">
         <div class="basis-1/4">            
-            <h4 class="text-5xl sm:text-6xl font-bold font-color text-paleGreen text-center pt-20">
+            <h4 class="pt-20 text-5xl font-bold text-center sm:text-6xl font-color text-paleGreen">
                 15K
             </h4>
             <p class="font-bold text-center text-[16px]">
@@ -142,7 +142,7 @@
             </p>
         </div>
         <div class="basis-1/4">
-            <h4 class="text-5xl sm:text-6xl font-bold font-color text-paleGreen text-center pt-20">
+            <h4 class="pt-20 text-5xl font-bold text-center sm:text-6xl font-color text-paleGreen">
                 150K
             </h4>
             <p class="font-bold text-center text-[16px]">
@@ -150,7 +150,7 @@
             </p>
         </div>
         <div class="basis-1/4">
-            <h4 class="text-5xl sm:text-6xl font-bold font-color text-paleGreen text-center pt-20">
+            <h4 class="pt-20 text-5xl font-bold text-center sm:text-6xl font-color text-paleGreen">
                 15
             </h4>
             <p class="font-bold text-center text-[16px]">
@@ -158,7 +158,7 @@
             </p>
         </div>
         <div class="basis-1/4">            
-            <h4 class="text-5xl sm:text-6xl font-bold font-color text-paleGreen text-center pt-20">
+            <h4 class="pt-20 text-5xl font-bold text-center sm:text-6xl font-color text-paleGreen">
                 100+
             </h4>
             <p class="font-bold text-center">
@@ -167,10 +167,10 @@
         </div>
     </section>
     <!-- start the hero #2 (the toddler splash) -->
-    <section class="flex flex-col-reverse items-center md:flex-row md:max-w-5xl my-10 mx-auto">
-        <div id="leftHero2" class="basis-1/2 mx-1 px-5 my-10">
+    <section class="flex flex-col-reverse items-center mx-auto my-10 md:flex-row md:max-w-5xl">
+        <div id="leftHero2" class="px-5 mx-1 my-10 basis-1/2">
             <div class="h-1 bg-red-600 w-[150px] rounded-t mb-10"></div>
-            <h2 class="text-4xl md:text-6xl font-color text-darkPurple subpixel-antialiased font-semibold">
+            <h2 class="text-4xl subpixel-antialiased font-semibold md:text-6xl font-color text-darkPurple">
                 Every Client Matters
             </h2>            
             <p class="mt-5 text-[#737373]">
@@ -180,55 +180,55 @@
                <a href="">Learn More</a>
             </p>
         </div>
-        <div id="rightHero2" class="basis-1/2 my-10">
+        <div id="rightHero2" class="my-10 basis-1/2">
             <img src="./img/hero2.png" alt="hero.png" width="450">
         </div>
     </section>
     <!-- start the hero #3 (ecommerce component) -->
-    <section class="bg-peach py-20">
-            <div class="pt-20 pl-5 md:max-w-5xl mx-auto">            
+    <section class="py-20 bg-peach">
+            <div class="pt-20 pl-5 mx-auto md:max-w-5xl">            
                 <p class="text-sm text-paleGreen">
                     Practice Advise
                 </p>                
-                <h2 class="text-4xl pb-1 font-color text-darkPurple subpixel-antialiased font-semibold md:text-6xl">
+                <h2 class="pb-1 text-4xl subpixel-antialiased font-semibold font-color text-darkPurple md:text-6xl">
                     Every Client Matters
                 </h2>                            
-                <p class="text-plainGray pt-1 pb-2 px-2">
+                <p class="px-2 pt-1 pb-2 text-plainGray">
                     Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
                 </p>
             </div>
             <!-- start the cards -->
-            <div class="flex flex-col mx-auto px-3 pb-20 md:space-x-10 md:max-w-5xl md:flex-row">
+            <div class="flex flex-col px-3 pb-20 mx-auto md:space-x-10 md:max-w-5xl md:flex-row">
                 <!-- start card #1 -->
                 <div class="basis-1/3 bg-white my-5 shadow-md rounded-lg object-cover mx-auto max-w-[80%]">
                     <div class="relative">                    
                         <img src="./img/sale01.png" alt="sale02.png" class="rounded-t-lg">                    
-                        <div class="bg-red-500 w-auto rounded-lg left-3 top-3 absolute drop-shadow-sm">
-                            <p class="text-sm text-white pl-4 pr-4 py-1 font-medium text-center">
+                        <div class="absolute w-auto bg-red-500 rounded-lg left-3 top-3 drop-shadow-sm">
+                            <p class="py-1 pl-4 pr-4 text-sm font-medium text-center text-white">
                                <a href="#">Sale</a>
                             </p>                    
                         </div>                        
-                        <div class="flex absolute bottom-0 h-16 object-cover">
+                        <div class="absolute bottom-0 flex object-cover h-16">
                             <div class="ml-[60px] md:ml-[80px] justify-center">
                                 <a href="#">
                                     <img src="./img/icons/icon-love.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-basket.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-like.svg" alt="icon-love.svg">
                                 </a>
                             </div>
                         </div>                        
                     </div>
-                    <div class="flex justify-between pl-2 pr-3 pt-3">
+                    <div class="flex justify-between pt-3 pl-2 pr-3">
                         <div class="top-0 left-0">
-                            <p class="text-paleGreen text-xs font-semibold uppercase tracking-widest">                        
+                            <p class="text-xs font-semibold tracking-widest uppercase text-paleGreen">                        
                                 Training Courses
                             </p>
                         </div>
@@ -241,13 +241,13 @@
                             </p>                                                              
                         </div>
                     </div>
-                    <h4 class="text-sm font-medium leading-tight text-darkPurple pl-2 pt-2">                        
+                    <h4 class="pt-2 pl-2 text-sm font-medium leading-tight text-darkPurple">                        
                         Get Quality Education
                     </h4>
-                    <p class="text-sm font-normal text-darkPurple px-2 py-2">               
+                    <p class="px-2 py-2 text-sm font-normal text-darkPurple">               
                         We focus on ergonomics and meeting you where you work. It's only a keystroke away.
                     </p>
-                    <div class="flex flex-row pl-3 pt-2 pb-2">                        
+                    <div class="flex flex-row pt-2 pb-2 pl-3">                        
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                             </svg>
@@ -255,14 +255,14 @@
                             15 Sales
                         </p>
                     </div>
-                    <div class="flex flex-row pl-3 pt-2 pb-1">                        
+                    <div class="flex flex-row pt-2 pb-1 pl-3">                        
                         <p class="text-xs subpixel-antialiased font-semibold text-gray-400">
-                            $16.48 | <span class="text-xs font-semibold subpixel-antialiased text-orange-400">
+                            $16.48 | <span class="text-xs subpixel-antialiased font-semibold text-orange-400">
                             $6.48 </span>
                         </p>
                     </div>  
                         <!-- start the button -->
-                    <div class="pl-2 pt-2 pb-4">                            
+                    <div class="pt-2 pb-4 pl-2">                            
                         <button type="hidden button" class="flex align-center px-5 pt-2.5 pb-2 bg-white border-paleGreen font-medium text-xs leading-normal rounded-full border-2 hover:bg-paleGreen hover:text-white text-paleGreen focus:text-paleGreen focus:outline-none focus:ring-0 active:text-paleGreen transition duration-150 ease-in-out">
                             Learn More
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -275,32 +275,32 @@
                 <div class="basis-1/3 bg-white my-5 shadow-md rounded-lg object-cover mx-auto max-w-[80%]">
                     <div class="relative">                    
                         <img src="./img/sale02.png" alt="sale02.png" class="rounded-t-lg">                    
-                        <div class="bg-red-500 w-auto rounded-lg left-3 top-3 absolute drop-shadow-sm">
-                            <p class="text-sm text-white pl-4 pr-4 py-1 font-medium text-center">
+                        <div class="absolute w-auto bg-red-500 rounded-lg left-3 top-3 drop-shadow-sm">
+                            <p class="py-1 pl-4 pr-4 text-sm font-medium text-center text-white">
                                <a href="#">Sale</a>
                             </p>                    
                         </div>                        
-                        <div class="flex absolute bottom-0 h-16 object-cover">
+                        <div class="absolute bottom-0 flex object-cover h-16">
                             <div class="ml-[60px] md:ml-[80px] justify-center">
                                 <a href="#">
                                     <img src="./img/icons/icon-love.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-basket.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-like.svg" alt="icon-love.svg">
                                 </a>
                             </div>
                         </div>                        
                     </div>
-                    <div class="flex justify-between pl-2 pr-3 pt-3">
+                    <div class="flex justify-between pt-3 pl-2 pr-3">
                         <div class="top-0 left-0">
-                            <p class="text-paleGreen text-xs font-semibold uppercase tracking-widest">                        
+                            <p class="text-xs font-semibold tracking-widest uppercase text-paleGreen">                        
                                 Training Courses
                             </p>
                         </div>
@@ -313,13 +313,13 @@
                             </p>                                                              
                         </div>
                     </div>
-                    <h4 class="text-sm font-medium leading-tight text-darkPurple pl-2 pt-2">                        
+                    <h4 class="pt-2 pl-2 text-sm font-medium leading-tight text-darkPurple">                        
                         Get Quality Education
                     </h4>
-                    <p class="text-sm font-normal text-darkPurple px-2 py-2">               
+                    <p class="px-2 py-2 text-sm font-normal text-darkPurple">               
                         We focus on ergonomics and meeting you where you work. It's only a keystroke away.
                     </p>
-                    <div class="flex flex-row pl-3 pt-2 pb-2">                        
+                    <div class="flex flex-row pt-2 pb-2 pl-3">                        
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                             </svg>
@@ -327,14 +327,14 @@
                             15 Sales
                         </p>
                     </div>
-                    <div class="flex flex-row pl-3 pt-2 pb-1">                        
+                    <div class="flex flex-row pt-2 pb-1 pl-3">                        
                         <p class="text-xs subpixel-antialiased font-semibold text-gray-400">
-                            $16.48 | <span class="text-xs font-semibold subpixel-antialiased text-orange-400">
+                            $16.48 | <span class="text-xs subpixel-antialiased font-semibold text-orange-400">
                             $6.48 </span>
                         </p>
                     </div>  
                         <!-- start the button -->
-                    <div class="pl-2 pt-2 pb-4">                            
+                    <div class="pt-2 pb-4 pl-2">                            
                         <button type="hidden button" class="flex align-center px-5 pt-2.5 pb-2 bg-white border-paleGreen font-medium text-xs leading-normal rounded-full border-2 hover:bg-paleGreen hover:text-white text-paleGreen focus:text-paleGreen focus:outline-none focus:ring-0 active:text-paleGreen transition duration-150 ease-in-out">
                             Learn More
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -347,32 +347,32 @@
                 <div class="basis-1/3 bg-white my-5 shadow-md rounded-lg object-cover mx-auto max-w-[80%]">
                     <div class="relative">                    
                         <img src="./img/sales03.png" alt="sale02.png" class="rounded-t-lg">                    
-                        <div class="bg-red-500 w-auto rounded-lg left-3 top-3 absolute drop-shadow-sm">
-                            <p class="text-sm text-white pl-4 pr-4 py-1 font-medium text-center">
+                        <div class="absolute w-auto bg-red-500 rounded-lg left-3 top-3 drop-shadow-sm">
+                            <p class="py-1 pl-4 pr-4 text-sm font-medium text-center text-white">
                                <a href="#">Sale</a>
                             </p>                    
                         </div>                        
-                        <div class="flex absolute bottom-0 h-16 object-cover">
+                        <div class="absolute bottom-0 flex object-cover h-16">
                             <div class="ml-[60px] md:ml-[80px] justify-center">
                                 <a href="#">
                                     <img src="./img/icons/icon-love.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-basket.svg" alt="icon-love.svg">
                                 </a>
                             </div>
-                            <div class="ml-2 content-center">
+                            <div class="content-center ml-2">
                                 <a href="#">
                                     <img src="./img/icons/icon-like.svg" alt="icon-love.svg">
                                 </a>
                             </div>
                         </div>                        
                     </div>
-                    <div class="flex justify-between pl-2 pr-3 pt-3">
+                    <div class="flex justify-between pt-3 pl-2 pr-3">
                         <div class="top-0 left-0">
-                            <p class="text-paleGreen text-xs font-semibold uppercase tracking-widest">                        
+                            <p class="text-xs font-semibold tracking-widest uppercase text-paleGreen">                        
                                 Training Courses
                             </p>
                         </div>
@@ -385,13 +385,13 @@
                             </p>                                                              
                         </div>
                     </div>
-                    <h4 class="text-sm font-medium leading-tight text-darkPurple pl-2 pt-2">                        
+                    <h4 class="pt-2 pl-2 text-sm font-medium leading-tight text-darkPurple">                        
                         Get Quality Education
                     </h4>
-                    <p class="text-sm font-normal text-darkPurple px-2 py-2">               
+                    <p class="px-2 py-2 text-sm font-normal text-darkPurple">               
                         We focus on ergonomics and meeting you where you work. It's only a keystroke away.
                     </p>
-                    <div class="flex flex-row pl-3 pt-2 pb-2">                        
+                    <div class="flex flex-row pt-2 pb-2 pl-3">                        
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                             </svg>
@@ -399,14 +399,14 @@
                             15 Sales
                         </p>
                     </div>
-                    <div class="flex flex-row pl-3 pt-2 pb-1">                        
+                    <div class="flex flex-row pt-2 pb-1 pl-3">                        
                         <p class="text-xs subpixel-antialiased font-semibold text-gray-400">
-                            $16.48 | <span class="text-xs font-semibold subpixel-antialiased text-orange-400">
+                            $16.48 | <span class="text-xs subpixel-antialiased font-semibold text-orange-400">
                             $6.48 </span>
                         </p>
                     </div>  
                         <!-- start the button -->
-                    <div class="pl-2 pt-2 pb-4">                            
+                    <div class="pt-2 pb-4 pl-2">                            
                         <button type="hidden button" class="flex align-center px-5 pt-2.5 pb-2 bg-white border-paleGreen font-medium text-xs leading-normal rounded-full border-2 hover:bg-paleGreen hover:text-white text-paleGreen focus:text-paleGreen focus:outline-none focus:ring-0 active:text-paleGreen transition duration-150 ease-in-out">
                             Learn More
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -419,20 +419,20 @@
     </section>  
     <!-- start the testimonials  -->            
     <section class="bg-white">
-        <div class="py-0 px-5 pt-10 md:pt-20 md:max-w-5xl mx-auto">            
+        <div class="px-5 py-0 pt-10 mx-auto md:pt-20 md:max-w-5xl">            
             <p class="text-sm text-paleGreen">
                 Practice Advise
             </p>                
-            <h2 class="text-4xl md:text-6xl font-color text-darkPurple subpixel-antialiased font-semibold">
+            <h2 class="text-4xl subpixel-antialiased font-semibold md:text-6xl font-color text-darkPurple">
                 Our Expert Teacher
             </h2>                            
-            <p class="text-plainGray pt-1 pb-3">
+            <p class="pt-1 pb-3 text-plainGray">
                 Problems trying to resolve the conflict between <br />the two major realms of Classical physics: Newtonian mechanics 
             </p>         
         </div>
         <div class="flex flex-col items-center mx-auto md:space-x-10 md:flex-row md:max-w-5xl max-w-[75%]">                       
             <!-- start the testi #1 -->
-            <div class="basis-1/3 pt-20">
+            <div class="pt-20 basis-1/3">
                     <ul class="flex justify-center mb-5">
                         <li>
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500"
@@ -476,30 +476,30 @@
                         </li>
                     </ul>
                 <div id="paragraph">
-                    <p class="pb-5 text-center subpixel-antialiased">
+                    <p class="pb-5 subpixel-antialiased text-center">
                         Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
                     </p>
                 </div>
-                <div class="flex w-full flex-row justify-center">
+                <div class="flex flex-row justify-center w-full">
                     <div class="relative flex flex-col">
-                        <div class="flex h-12 w-12 flex-shrink-0 flex-col justify-center rounded-full bg-slate-200 bg-opacity-50 dark:bg-slate-600">
+                        <div class="flex flex-col justify-center flex-shrink-0 w-12 h-12 bg-opacity-50 rounded-full bg-slate-200 dark:bg-slate-600">
                             <img src="./img/testi01.png" 
-                                class="z-10 h-12 w-12 rounded-full object-cover shadow hover:shadow-xl" 
+                                class="z-10 object-cover w-12 h-12 rounded-full shadow hover:shadow-xl" 
                                 alt="Regina Miles" />
-                            <span class="absolute right-0 top-0 z-20 flex h-3 w-3">
-                                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                                <span class="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                            <span class="absolute top-0 right-0 z-20 flex w-3 h-3">
+                                <span class="absolute inline-flex w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+                                <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
                             </span>
                         </div>
                     </div>
-                    <div class="ml-4 self-center overflow-x-hidden">
-                        <div class="w-full truncate text-xl font-bold leading-5 tracking-tight">Regina Miles</div>
+                    <div class="self-center ml-4 overflow-x-hidden">
+                        <div class="w-full text-xl font-bold leading-5 tracking-tight truncate">Regina Miles</div>
                         <div class="text-sm text-slate-500">Designer</div>
                     </div>
                 </div>                            
             </div>
             <!-- start the testi #2 -->
-            <div class="basis-1/3 pt-20">
+            <div class="pt-20 basis-1/3">
                 <ul class="flex justify-center mb-5">
                         <li>
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500"
@@ -543,30 +543,30 @@
                         </li>
                         </ul>
                 <div id="paragraph">
-                    <p class="pb-5 text-center subpixel-antialiased">
+                    <p class="pb-5 subpixel-antialiased text-center">
                         Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
                     </p>
                 </div>
-                <div class="flex w-full flex-row justify-center">
+                <div class="flex flex-row justify-center w-full">
                     <div class="relative flex flex-col">
-                        <div class="flex h-12 w-12 flex-shrink-0 flex-col justify-center rounded-full bg-slate-200 bg-opacity-50 dark:bg-slate-600">
+                        <div class="flex flex-col justify-center flex-shrink-0 w-12 h-12 bg-opacity-50 rounded-full bg-slate-200 dark:bg-slate-600">
                             <img src="./img/testi02.png" 
-                                class="z-10 h-12 w-12 rounded-full object-cover shadow hover:shadow-xl" 
+                                class="z-10 object-cover w-12 h-12 rounded-full shadow hover:shadow-xl" 
                                 alt="Rocky Balboa" />
-                            <span class="absolute right-0 top-0 z-20 flex h-3 w-3">
-                                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                                <span class="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                            <span class="absolute top-0 right-0 z-20 flex w-3 h-3">
+                                <span class="absolute inline-flex w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+                                <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
                             </span>
                         </div>
                     </div>
-                    <div class="ml-4 self-center overflow-x-hidden">
-                        <div class="w-full truncate text-xl font-bold leading-5 tracking-tight">Rocky Balboa</div>
+                    <div class="self-center ml-4 overflow-x-hidden">
+                        <div class="w-full text-xl font-bold leading-5 tracking-tight truncate">Rocky Balboa</div>
                         <div class="text-sm text-slate-500">Marketer</div>
                     </div>
                 </div>                            
             </div>
             <!-- start the testi #3 -->
-            <div class="basis-1/3 pt-20">
+            <div class="pt-20 basis-1/3">
                     <ul class="flex justify-center mb-5">
                         <li>
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500"
@@ -610,24 +610,24 @@
                         </li>
                         </ul>
                 <div id="paragraph">
-                    <p class="pb-5 text-center subpixel-antialiased">
+                    <p class="pb-5 subpixel-antialiased text-center">
                         Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
                     </p>
                 </div>
-                <div class="flex w-full flex-row justify-center">
+                <div class="flex flex-row justify-center w-full">
                     <div class="relative flex flex-col">
-                        <div class="flex h-12 w-12 flex-shrink-0 flex-col justify-center rounded-full bg-slate-200 bg-opacity-50 dark:bg-slate-600">
+                        <div class="flex flex-col justify-center flex-shrink-0 w-12 h-12 bg-opacity-50 rounded-full bg-slate-200 dark:bg-slate-600">
                             <img src="./img/testi03.png" 
-                                class="z-10 h-12 w-12 rounded-full object-cover shadow hover:shadow-xl" 
+                                class="z-10 object-cover w-12 h-12 rounded-full shadow hover:shadow-xl" 
                                 alt="Rocky Balboa" />
-                            <span class="absolute right-0 top-0 z-20 flex h-3 w-3">
-                                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                                <span class="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                            <span class="absolute top-0 right-0 z-20 flex w-3 h-3">
+                                <span class="absolute inline-flex w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+                                <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
                             </span>
                         </div>
                     </div>
-                    <div class="ml-4 self-center overflow-x-hidden">
-                        <div class="w-full truncate text-xl font-bold leading-5 tracking-tight">Rocky Balboa</div>
+                    <div class="self-center ml-4 overflow-x-hidden">
+                        <div class="w-full text-xl font-bold leading-5 tracking-tight truncate">Rocky Balboa</div>
                         <div class="text-sm text-slate-500">Developer</div>
                     </div>
                 </div>                            
@@ -636,11 +636,11 @@
     </section>
     <!-- start the popular course  -->
     <section class="bg-white">
-        <div class="pt-20 mt-10 px-5 py-5 max-w-5xl mx-auto">            
+        <div class="max-w-5xl px-5 py-5 pt-20 mx-auto mt-10">            
             <p class="text-sm text-paleGreen">
                 Practice
             </p>   
-            <h2 class="text-4xl md:text-6xl font-color text-darkPurple subpixel-antialiased font-semibold">
+            <h2 class="text-4xl subpixel-antialiased font-semibold md:text-6xl font-color text-darkPurple">
                 Our Popular Course
             </h2>                            
             <p class="text-[#737373] font-medium pt-3">
@@ -653,10 +653,10 @@
         <!-- start card #1 -->                 
         <div class="basis-1/4 rounded-xl shadow-md bg-white max-w-[85%] mb-5">
             <img src="./img/course-01.png" alt="course-01.png" class="rounded-t-xl">                                          
-                <h4 class="text-sm font-semibold text-darkPurple text-center pt-2">
+                <h4 class="pt-2 text-sm font-semibold text-center text-darkPurple">
                     Julian Jameson
                 </h4>
-                <p class="text-center pt-2 text-xs font-normal">
+                <p class="pt-2 text-xs font-normal text-center">
                     Profession
                 </p>    
                 <div class="flex justify-center py-5">
@@ -680,10 +680,10 @@
         <!-- start card #2 -->
         <div class="basis-1/4 rounded-xl shadow-md bg-white max-w-[85%] mb-5">
             <img src="./img/course-02.png" alt="course-02.png" class="rounded-t-xl">
-            <h4 class="text-sm font-semibold text-darkPurple text-center pt-2">
+            <h4 class="pt-2 text-sm font-semibold text-center text-darkPurple">
                 Julian Jameson
             </h4>
-            <p class="text-center pt-2 text-xs font-normal">
+            <p class="pt-2 text-xs font-normal text-center">
                 Profession
             </p>                 
             <div class="flex justify-center py-5">
@@ -707,10 +707,10 @@
         <!-- start card #3 -->
         <div class="basis-1/4 rounded-xl shadow-md bg-white max-w-[85%] mb-5">
             <img src="./img/course-03.png" alt="course-03.png" class="rounded-t-xl">
-            <h4 class="text-sm font-semibold text-darkPurple text-center pt-2">
+            <h4 class="pt-2 text-sm font-semibold text-center text-darkPurple">
                 Julian Jameson
             </h4>
-            <p class="text-center pt-2 text-xs font-normal">
+            <p class="pt-2 text-xs font-normal text-center">
                 Profession
             </p>
             <div class="flex justify-center py-5">
@@ -734,10 +734,10 @@
         <!-- start card #4 -->
         <div class="basis-1/4 rounded-xl shadow-md bg-white max-w-[85%] mb-5">
             <img src="./img/course-04.png" alt="course-04.png" class="rounded-t-xl">
-            <h4 class="text-sm font-semibold text-darkPurple text-center pt-2">
+            <h4 class="pt-2 text-sm font-semibold text-center text-darkPurple">
                 Julian Jameson
             </h4>
-            <p class="text-center pt-2 text-xs font-normal">
+            <p class="pt-2 text-xs font-normal text-center">
                 Profession
             </p>       
             <div class="flex justify-center py-5">
@@ -760,91 +760,91 @@
         </div>                    
     </section>
     <!-- start the newsletter section -->
-    <section class="flex justify-center mt-10 pb-10 w-full max-w-5xl mx-auto">
-        <div class="md:my-16 lg:py-16 md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center">
+    <section class="flex justify-center w-full max-w-5xl pb-10 mx-auto mt-10">
+        <div class="flex flex-col items-center justify-center px-4 md:my-16 lg:py-16 md:mx-24 md:px-12">
             <p class="text-[14px] text-paleGreen text-center pb-3">Newsletter</p>
             <h4 class="text-3xl font-semibold leading-9 text-center">Watch Our Courses</h4>
-            <p class="text-base leading-normal text-center mt-6">
+            <p class="mt-6 text-base leading-normal text-center">
                 Problems trying to resolve the conflict <br />  between the two major realms of Classical physics: Newtonian mechanics               
             </p>
-            <div class="sm:border border-paleGreen flex-col sm:flex-row flex items-center lg:w-5/12 w-full mt-12 space-y-4 sm:space-y-0">
-                <input class="border border-paleGreen sm:border-transparent text-xs w-full font-medium leading-none p-4 focus:outline-none bg-transparent placeholder-paleGreen" placeholder="Email Address" />
-                <button class="focus:outline-none focus:ring-offset-2 focus:ring border border-paleGreen sm:border-transparent w-full sm:w-auto text-white bg-paleGreen text-xs py-4 px-6 hover:bg-opacity-75">Subscribe</button>
+            <div class="flex flex-col items-center w-full mt-12 space-y-4 sm:border border-paleGreen sm:flex-row lg:w-5/12 sm:space-y-0">
+                <input class="w-full p-4 text-xs font-medium leading-none bg-transparent border border-paleGreen sm:border-transparent focus:outline-none placeholder-paleGreen" placeholder="Email Address" />
+                <button class="w-full px-6 py-4 text-xs text-white border focus:outline-none focus:ring-offset-2 focus:ring border-paleGreen sm:border-transparent sm:w-auto bg-paleGreen hover:bg-opacity-75">Subscribe</button>
             </div>            
         </div>
     </section>
     <!-- start the footer section -->
-    <section class="flex flex-col pl-5 mx-auto md:space-x-10 md:flex-row md:max-w-5xl text-gray-500">
-    <!-- <section class="flex justify-evenly max-w-5xl pb-5 mx-auto space-x-10 text-gray-500"> -->
-        <div class="basis-1/5 pb-4 text-left">
-            <h6 class="font-medium pb-2 text-gray-700">Company Info</h6>
-            <p class="text-sm pb-2 font-medium">
+    <section class="flex flex-col pl-5 mx-auto text-gray-500 md:space-x-10 md:flex-row md:max-w-5xl">
+    <!-- <section class="flex max-w-5xl pb-5 mx-auto space-x-10 text-gray-500 justify-evenly"> -->
+        <div class="pb-4 text-left basis-1/5">
+            <h6 class="pb-2 font-medium text-gray-700">Company Info</h6>
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">About Us</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Carrier</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">We're Hiring</a>
             </p>
             <p class="text-sm font-medium">
                 <a href="#">Blog</a>
             </p>                        
         </div>
-        <div class="basis-1/5 pb-4 text-left">
-            <h6 class="font-medium pb-2 text-gray-700">Legal</h6>
-            <p class="text-sm pb-2 font-medium">
+        <div class="pb-4 text-left basis-1/5">
+            <h6 class="pb-2 font-medium text-gray-700">Legal</h6>
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">About Us</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Carrier</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">We're Hiring</a>
             </p>
             <p class="text-sm font-medium">
                 <a href="#">Blog</a>
             </p>                        
         </div>
-        <div class="basis-1/5 pb-4 text-left">
-            <h6 class="font-medium pb-2 text-gray-700">Features</h6>
-            <p class="text-sm pb-2 font-medium">
+        <div class="pb-4 text-left basis-1/5">
+            <h6 class="pb-2 font-medium text-gray-700">Features</h6>
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Business Marketing</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">User Analytics</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Live Chat</a>
             </p>
             <p class="text-sm font-medium">
                 <a href="#">Unlimited Support</a>
             </p>                        
         </div>
-        <div class="basis-1/5 pb-4 text-left">
-            <h6 class="font-medium pb-2 text-gray-700">Resources</h6>
-            <p class="text-sm pb-2 font-medium">
+        <div class="pb-4 text-left basis-1/5">
+            <h6 class="pb-2 font-medium text-gray-700">Resources</h6>
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">iOS & Android</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Watch a Demo</a>
             </p>
-            <p class="text-sm pb-2 font-medium">
+            <p class="pb-2 text-sm font-medium">
                 <a href="#">Customers Support</a>
             </p>
             <p class="text-sm font-medium">
                 <a href="#">API</a>
             </p>                        
         </div>
-        <div class="basis-1/5 pb-4 text-left">
-                <h6 class="font-medium pb-2 text-gray-700">Get in Touch!</h6>            
-                <div class="flex align-center text-sm pb-2 font-medium">
+        <div class="pb-4 text-left basis-1/5">
+                <h6 class="pb-2 font-medium text-gray-700">Get in Touch!</h6>            
+                <div class="flex pb-2 text-sm font-medium align-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.3" stroke="currentColor" class="w-5 h-5">
                         <path fill="#96BB7C" stroke-linecap="none" stroke-linejoin="none" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                     </svg>
                     <p>(480) 555-0103</p>                  
                 </div>            
-                <div class="flex align-center text-sm pb-2 font-medium">
+                <div class="flex pb-2 text-sm font-medium align-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor" class="w-6 h-6">
                         <path fill="#96BB7C" stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                         <path fill="#96BB7C" stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
@@ -852,7 +852,7 @@
                     <p>4517 Washington Ave. Manchester,<br />
                     Kentucky 39495</p>                  
                 </div>            
-                <div class="flex align-center text-sm pb-2 font-medium">
+                <div class="flex pb-2 text-sm font-medium align-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5" stroke="currentColor" class="w-5 h-5">
                         <path fill="#96BB7C" stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
@@ -861,10 +861,10 @@
         </div>
     </section>
     <!-- start the footer links -->
-    <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
-        <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-            <div class="mr-12 hidden lg:block">
-            <span class="text-xs pb-2 font-medium">Made With Love By Figmaland All Right Reserved</span>
+    <footer class="text-center text-gray-600 bg-gray-100 lg:text-left">
+        <div class="flex items-center justify-center p-6 border-b border-gray-300 lg:justify-between">
+            <div class="hidden mr-12 lg:block">
+            <span class="pb-2 text-xs font-medium">Made With Love By Figmaland All Right Reserved</span>
             </div>
             <div class="flex justify-center">
             <a href="#" class="mr-6 text-gray-600">
