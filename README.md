@@ -2,6 +2,8 @@
 
 https://user-images.githubusercontent.com/8904/203683489-83fcbda1-8eac-498b-a84e-a958d3ff59e2.mp4
 
+[![Deploy static content to Pages](https://github.com/leonism/back2school/actions/workflows/static.yml/badge.svg)](https://github.com/leonism/back2school/actions/workflows/static.yml)
+
 Get ready for the new school year with `Back2School`, a versatile and easy-to-use single page layout. Open source and built with the latest Tailwind technology, this layout is minimalistic, lightweight, and responsive. One sleek and modern single page layout perfect for any education-related website. 
 
 Built using the latest `Tailwind` technology, this layout is minimalistic, responsive, and easy to customize. With its clean and straightforward design, it's sure to make a powerful impression on your visitors. To get the most out of this layout, make sure you have Node JS installed and running on your system so you can easily install the necessary dependencies for the final build to function properly. 
